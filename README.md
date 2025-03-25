@@ -1,2 +1,3 @@
-# x68k-us.github.io
-The x68k.us web site
+# x68k.us site
+
+Based on the [AmigaVision](https://amiga.vision) web site, which is based on the Hydra template for Jekyll. 
