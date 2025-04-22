@@ -53,7 +53,7 @@ vscale_mode=1
 video_mode=1024,1024,60
 ```
 
-**Windows:** For unpacking multiple files, on Windows, we recommend using 7zip, selecting all the files, and using the "Extract here" right click menu item.
+**Windows:** For unpacking multiple files, on Windows, we recommend using 7zip, selecting all the files, and using the "Extract here" right click menu item. If asked to overwrite duplicate files, just say "Yes to All".
 
 **macOS:** Most of the tools will unfortunately create a dedicated folder for every game when you unpack (even if they say they won't, like in the case of Keka), so the most efficient way is to use the Terminal:
 
