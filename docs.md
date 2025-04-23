@@ -2,7 +2,7 @@
 title: X68000 Setup for MiSTer
 --- 
 
-X68000 is a system that uses a lot of different resolutions across 15kHz, 24kHz and 31kHz, so we will need to use the VGA scaler. 
+The Sharp X68000 computer is a system that uses a lot of different resolutions across 15kHz, 24kHz and 31kHz, so we will need to use the VGA scaler, and add some settings for its more uncommon resolutions.
 
 (The X68000 core also does not support Direct Video (yet?), so if you are using a RetroTink 4K scaler, auto-configuration of the scaler settings will not work — you will have to load a profile manually or just use the defaults.)
 
