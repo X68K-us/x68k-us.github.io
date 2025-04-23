@@ -2,7 +2,7 @@
 title: X68000 Setup for MiSTer
 --- 
 
-## Installation
+## MiSTer Setup
 
 X68000 is a system that uses a lot of different resolutions across 15kHz, 24kHz and 31kHz, so we will need to use the VGA scaler. 
 
@@ -52,9 +52,17 @@ vscale_mode=1
 video_mode=1024,1024,60
 ```
 
-### Unpacking the Games
+## English + Japanese Games
 
-**Windows:** For unpacking multiple files, on Windows, we recommend using 7zip, selecting all the zip files you want, and using the "Extract here" right click menu item. If asked to overwrite duplicate files, just say "Yes to All".
+We have separate out the games where you need to understand Japanese to get any enjoyment out of a game to a separate `Japanese` directory. There are games in the English directory where text or speech is in Japanese, but the games are easy to navigate and play even if you don't know it.
+
+If you *do* understand Japanese, unpack both the `English` and `Japanese` directories, as you can think of it as an add-on pack to the English one.
+
+## Unpacking the Games
+
+The X68000 core does not support HDFs inside ZIP files. So you will need to unpack the ones you want to play.
+
+**Windows:** For unpacking multiple files, on Windows, we recommend using 7zip, selecting all the ZIP files you want, and using the "Extract here" right click menu item. If asked to overwrite duplicate files, just say "Yes to All".
 
 **macOS:** Most of the tools will unfortunately create a dedicated folder for every game when you unpack (even if they say they won't, like in the case of Keka or The Unarchiver, or the built-in Archive Utility), so the most efficient way is to use the Terminal:
 
