@@ -52,9 +52,13 @@ video_mode=1024,1024,60
 
 ### English + Japanese Games
 
-We have separate out the games where you need to understand Japanese to get any enjoyment out of a game to a separate `Japanese` directory. There are games in the English directory where text or speech is in Japanese, but the games are easy to navigate and play even if you don't know it.
+We have separated out the games where you need to understand Japanese to get any enjoyment out of a game to a separate `Japanese` folder. There are games in the English folder where text or speech is in Japanese, but the games are easy to navigate and play even if you don't know it.
 
-If you *do* understand Japanese, unpack both the `English` and `Japanese` directories, as you can think of it as an add-on pack to the English one.
+If you *do* understand Japanese, unpack both the `English` and `Japanese` folders, as you can think of it as an add-on pack to the English one.
+
+### Keyboard + Mouse Games
+
+Since not everyone uses MiSTer with a keyboard and mouse — although highly recommended for any of the computer cores — we have separated out the games that require that setup to a separate folder. Unpack these if you have the necessary equipment connected to your MiSTer.
 
 ### Unpacking the Games
 
@@ -65,13 +69,13 @@ The X68000 core does not support HDFs inside ZIP files. So you will need to unpa
 **macOS:** Most of the tools will unfortunately create a dedicated folder for every game when you unpack (even if they say they won't, like in the case of Keka or The Unarchiver, or the built-in Archive Utility), so the most efficient way is to use the Terminal:
 
 ```
-cd DirectoryWithYourFiles
+cd FolderWithYourFiles
 for f in *.zip; do unzip -o "$f" -d ./; done
 ````
 
-(If you are uncomfortable using the Terminal, just unpack all the files and move the directories manually)
+(If you are uncomfortable using the Terminal, just unpack all the files and move the folders manually)
 
-Once unpacked, copy all the folders to the root of your MiSTer. The directories look like this:
+Once unpacked, copy all the folders to the root of your MiSTer. The folders look like this:
 
 ```
 _Computer
@@ -80,7 +84,7 @@ docs
 games
 ```
 
-If asked, use the "Merge" option to merge the directories.
+If asked, use the "Merge" option to merge the folders.
 
 ### Launching a Game
 
