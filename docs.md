@@ -2,8 +2,6 @@
 title: X68000 Setup for MiSTer
 --- 
 
-## MiSTer Setup
-
 X68000 is a system that uses a lot of different resolutions across 15kHz, 24kHz and 31kHz, so we will need to use the VGA scaler. 
 
 (The X68000 core also does not support Direct Video (yet?), so if you are using a RetroTink 4K scaler, auto-configuration of the scaler settings will not work — you will have to load a profile manually or just use the defaults.)
@@ -52,13 +50,13 @@ vscale_mode=1
 video_mode=1024,1024,60
 ```
 
-## English + Japanese Games
+### English + Japanese Games
 
 We have separate out the games where you need to understand Japanese to get any enjoyment out of a game to a separate `Japanese` directory. There are games in the English directory where text or speech is in Japanese, but the games are easy to navigate and play even if you don't know it.
 
 If you *do* understand Japanese, unpack both the `English` and `Japanese` directories, as you can think of it as an add-on pack to the English one.
 
-## Unpacking the Games
+### Unpacking the Games
 
 The X68000 core does not support HDFs inside ZIP files. So you will need to unpack the ones you want to play.
 
