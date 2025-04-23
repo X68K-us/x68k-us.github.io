@@ -1,5 +1,5 @@
 ---
-title: X68000 Setup for MiSTer
+title: X68000 Games Setup for MiSTer
 --- 
 
 The Sharp X68000 computer is a system that uses a lot of different resolutions across 15kHz, 24kHz and 31kHz, so we will need to use the VGA scaler, and add some settings for its more uncommon resolutions.
