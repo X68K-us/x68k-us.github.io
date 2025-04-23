@@ -58,15 +58,15 @@ If you *do* understand Japanese, unpack both the `English` and `Japanese` folder
 
 ### Keyboard + Mouse Games
 
-Since not everyone uses MiSTer with a keyboard and mouse — although highly recommended for any of the computer cores — we have separated out the games that require that setup to a separate folder. Unpack these if you have the necessary equipment connected to your MiSTer.
+Since not everyone uses MiSTer with a keyboard and mouse — although highly recommended when using the computer cores — we have separated out the games that require that setup to a separate folder. Unpack these if you have the necessary equipment connected to your MiSTer.
 
 ### Unpacking the Games
 
-The X68000 core does not support HDFs inside ZIP files. So you will need to unpack the ones you want to play.
+The X68000 core does not support HDFs inside ZIP files. So you will need to unpack the games you want to play.
 
 **Windows:** For unpacking multiple files, on Windows, we recommend using 7zip, selecting all the ZIP files you want, and using the "Extract here" right click menu item. If asked to overwrite duplicate files, just say "Yes to All".
 
-**macOS:** Most of the tools will unfortunately create a dedicated folder for every game when you unpack (even if they say they won't, like in the case of Keka or The Unarchiver, or the built-in Archive Utility), so the most efficient way is to use the Terminal:
+**macOS:** Most of the unpacking apps will unfortunately create a dedicated folder for every game when you unpack (even if they say they won't, like in the case of Keka or The Unarchiver, or the built-in Archive Utility), so the most efficient way is to use the Terminal:
 
 ```
 cd FolderWithYourFiles
@@ -88,7 +88,7 @@ If asked, use the "Merge" option to merge the folders.
 
 ### Launching a Game
 
-The games will launch directly from the MiSTer menu, `Computer` → `X68000 Games` — there is no need to launch the X68000 core separately. Every time you pick a new game from the list, it will re-load the core and boot the game.
+The games will launch directly from the MiSTer menu, you can find them under `Computer` → `X68000 Games` — there is no need to launch the X68000 core separately. Every time you pick a new game from the list, it will re-load the core and boot the game.
 
 
 <script>
