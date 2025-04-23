@@ -82,7 +82,9 @@ games
 
 If asked, use the "Merge" option to merge the directories.
 
-The games will launch directly from the MiSTer menu inside `Computer` using MGL files.
+### Launching a Game
+
+The games will launch directly from the MiSTer menu, `Computer` → `X68000 Games` — there is no need to launch the X68000 core separately. Every time you pick a new game from the list, it will re-load the core and boot the game.
 
 
 <script>
